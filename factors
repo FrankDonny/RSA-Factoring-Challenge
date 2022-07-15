@@ -9,7 +9,7 @@ def factorize(value):
         return
     while value % i:
         i += 1
-    print(f"{value}={value/i}*{i}")
+    print(f"{value}={value//i}*{i}")
 
 
 if len(argv) != 2:
